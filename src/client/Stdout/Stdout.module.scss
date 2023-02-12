@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 1.8em;
+}
+
+.command {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}

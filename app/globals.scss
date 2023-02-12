@@ -1,0 +1,21 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
+  font-size: 0.9rem;
+  color: #222222;
+  background: white;
+
+  @media (prefers-color-scheme: dark) {
+    color-scheme: dark;
+    background: #222222;
+    color: white;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,23 @@
+.input {
+  caret-color: transparent;
+  outline: transparent;
+  border: none;
+  background: none;
+  font-family: unset;
+  font-size: unset;
+}
+
+.cursor {
+  @keyframes blink {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  animation: blink 600ms infinite;
+}
